@@ -107,6 +107,7 @@ function Home() {
               $randomleft={randomPosition.randomLeft}
               $randomtop={randomPosition.randomTop}
               $hasstarted={hasStarted}
+              onClick={() => handleHover(true)}
               onMouseEnter={() => handleHover(true)}
               onMouseLeave={() => handleHover(false)}
             >
