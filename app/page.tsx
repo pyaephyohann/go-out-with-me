@@ -77,7 +77,7 @@ function Home() {
     <StyledHome data-testid="container">
       <div className="home-container">
         {bunnyState === "yes" ? (
-          <div className="title">I give you flower baby !!!!</div>
+          <div className="title">A flower for you!</div>
         ) : (
           <div className="title">Will you go out with me?</div>
         )}
