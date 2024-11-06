@@ -10,6 +10,7 @@ import bunnyPunch from "./animations/bunnyPunch.json";
 import Button from "./components/Button";
 
 const getRandomPosition = () => {
+  console.log("blabla");
   if (typeof window !== "undefined") {
     return {
       randomLeft: `${Math.random() * (window.innerWidth - 100)}px`,
